@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Future City Maktaba</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f8f8f8; color: #333;
+    }
+
+    header {
+      background: #4a90e2; color: white;
+      padding: 15px; text-align: center;
+    }
+
+    nav {
+      background: #333;
+      display: flex; justify-content: center;
+    }
+
+    nav a {
+      color: white; text-decoration: none;
+      padding: 14px 20px; display: block;
+    }
+
+    nav a:hover { background: #555; }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .product {
+      background: white; padding: 15px;
+      border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    footer {
+      background: #333; color: white;
+      text-align: center; padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📦 Our Products</h1>
+    <p>Books, notebooks, and school supplies</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="products-grid">
+    <div class="product">
+      <h3>📘 School Notebooks</h3>
+      <p>Available in different sizes</p>
+    </div>
+    <div class="product">
+      <h3>✏️ Sharpeners</h3>
+      <p>Durable and colorful sharpeners</p>
+    </div>
+    <div class="product">
+      <h3>📚 School Books</h3>
+      <p>By order only</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Future City Maktaba | All rights reserved</p>
+  </footer>
+</body>
+</html>
